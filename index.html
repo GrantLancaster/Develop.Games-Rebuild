@@ -14,77 +14,103 @@
       <h4>v1.0.8 - Chat is Stinky Edition</h4>
     </div>
     <div id="HeaderButtons">
-      <button>Game Dev</button>
-      <button>Game Jam</button>
+      <div class="button">
+        <a id="GameDevButton" href="#Introduction">
+          <img src="./assets/button_gamedev_white.gif" alt="Continue to learn about how you can make games!" />
+          <div class="overlay"></div>
+        </a>
+      </div>
+
+      <div class="button">
+        <a id="GameJamButton" href="https://itch.io/jam/pirate">
+          <img src="./assets/button_gamejam_white.gif" alt="Continue to learn about how you can make games!" />
+          <div class="overlay"></div>
+        </a>
+      </div>
     </div>
   </header>
 
-  <nav>
-    <ul>
-      <li>Live Stream</li>
-      <li>Who Are You?</li>
-      <li>Skills Required</li>
-      <li>
-        <ul>
-          <li>Art</li>
-          <li>Music</li>
-          <li>Programming</li>
-        </ul>
-      </li>
-      <li>Picking a Genre</li>
-      <li>Building a Team</li>
-      <li>Tools</li>
-      <li>
-        <ul>
-          <li>Engine</li>
-          <li>Art Programs</li>
-          <li>Audio Programs</li>
-        </ul>
-      </li>
-      <li>Financing</li>
-      <li>
-        <ul>
-          <li>Streaming</li>
-          <li>Publishers</li>
-          <li>Kickstarter</li>
-          <li>Merchandise</li>
-          <li>Subscription Services</li>
-          <li>Scams</li>
-        </ul>
-      </li>
-      <li>Marketing</li>
-      <li>
-        <ul>
-          <li>Building a Community</li>
-          <li>Social Media</li>
-          <li>Paid Advertisement</li>
-          <li>Conventions</li>
-          <li>Awards</li>
-        </ul>
-      </li>
-      <li>Launching Your Game</li>
-      <li>
-        <ul>
-          <li>Steam</li>
-          <li>Humble Bundle</li>
-          <li>Game Jolt</li>
-          <li>Itch.io</li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+  <div class="MainContent">
+    <nav>
+      <ul>
+        <li>Live Stream</li>
+        <li>Who Are You?</li>
+        <li>Skills Required</li>
+        <li>
+          <ul>
+            <li>Art</li>
+            <li>Music</li>
+            <li>Programming</li>
+          </ul>
+        </li>
+        <li>Picking a Genre</li>
+        <li>Building a Team</li>
+        <li>Tools</li>
+        <li>
+          <ul>
+            <li>Engine</li>
+            <li>Art Programs</li>
+            <li>Audio Programs</li>
+          </ul>
+        </li>
+        <li>Financing</li>
+        <li>
+          <ul>
+            <li>Streaming</li>
+            <li>Publishers</li>
+            <li>Kickstarter</li>
+            <li>Merchandise</li>
+            <li>Subscription Services</li>
+            <li>Scams</li>
+          </ul>
+        </li>
+        <li>Marketing</li>
+        <li>
+          <ul>
+            <li>Building a Community</li>
+            <li>Social Media</li>
+            <li>Paid Advertisement</li>
+            <li>Conventions</li>
+            <li>Awards</li>
+          </ul>
+        </li>
+        <li>Launching Your Game</li>
+        <li>
+          <ul>
+            <li>Steam</li>
+            <li>Humble Bundle</li>
+            <li>Game Jolt</li>
+            <li>Itch.io</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
 
-  <main>
-    <div class="ContentPanel" id="TwitchPanel"></div>
-    <div class="ContentPanel" id="Introduction"></div>
-    <div class="ContentPanel" id="Skills"></div>
-    <div class="ContentPanel" id="TypeOfGame"></div>
-    <div class="ContentPanel" id="Team"></div>
-    <div class="ContentPanel" id="Tools"></div>
-    <div class="ContentPanel" id="Funding"></div>
-    <div class="ContentPanel" id="Marketing"></div>
-    <div class="ContentPanel" id="LaunchingGame"></div>
-  </main>
+    <main>
+      <div class="ContentPanel" id="TwitchPanel"></div>
+      <div class="ContentPanel" id="Introduction">
+        <img class="SplashImage" src="./assets/gamedev_splash.png" alt="GameDev splash image of a controller and two wrenches." />
+        <h1>Who Are You?</h1>
+        <div class="HorizontalLineSeparator"></div>
+        <p>
+          My name is Jason Thor Hall but I just go by my middle name of Thor. I started in the games industry in 2004 on World of Warcraft Vanilla. I've worked for Blizzard Entertainment, Amazon Games Studios, the United States Department of Energy, and now Pirate Software. I've got three black badges from DEFCON, two for cryptography, and one for telephreaking. I'm a programmer, hacker, game developer, and all around giant nerd.
+        </p>
+        <p>
+          I left all of that behind and started my studio Pirate Software in 2017 and I haven't looked back since. As the studio head I wear a lot of hats. I'm the programmer, writer, designer, game director, social media manager, and tons of other jobs. I feel extremely confident in running my studio and in how far we've come and how everything has turned out. Any decision that I ever make is based on analytics and research.
+        </p>
+        <p>
+          Right now we are working on an RPG called Heartbound. It's an adventure that focuses heavily on player choice and I stream all of the development live every day on Twitch. Heartbound made it through Steam Greenlight in 11 days as the top voted submission across the entire platform. We then ran a successful Kickstarter campaign that hit 385% of its funding goal. At the time of this writing Heartbound is in Early Access on Steam and voted 97% positive out of 1,213 reviews. It's been translated into six languages and is really well liked all over the world.
+        </p>
+      </div>
+      <div class="ContentPanel" id="Skills"></div>
+      <div class="ContentPanel" id="TypeOfGame"></div>
+      <div class="ContentPanel" id="Team"></div>
+      <div class="ContentPanel" id="Tools"></div>
+      <div class="ContentPanel" id="Funding"></div>
+      <div class="ContentPanel" id="Marketing"></div>
+      <div class="ContentPanel" id="LaunchingGame"></div>
+    </main>
+  </div>
 
 </body>
 </html>

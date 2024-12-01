@@ -8,30 +8,71 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 header {
     display: flex;
     flex-direction: column;
+    margin: 0 2rem 2rem 2rem;
 }
-    #VersionNumber {
-        margin-left: 2rem;
-    }
     #HeaderButtons {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 4rem;
     }
+    .button {
+        position: relative;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 84px;
+        border-radius: 0.5em;
+    }
+    .overlay:hover {
+        background-color: gold;
+        opacity: 0.2;
+    }
+
+.MainContent {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1em;
+
+}
 
 nav {
     position: sticky;
     top: 0;
+    min-width: 200px;
 }
+    ul {
+        list-style-type: none;
+        padding-inline-start: 1em;
+        margin:0.2em 0 0.2em 0;
+    }
+    li {
+        margin: 0.2em 0 0.2em 0;
+    }
 
-ul {
-    list-style-type: none;
-    padding-inline-start: 1em;
-    margin:0.2em 0 0.2em 0;
+main {
 }
-li {
-    margin: 0.2em 0 0.2em 0;
-}
+    .ContentPanel {
+        border: 2px solid white;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ContentPanel p {
+        font-size: 22px;
+    }
+    .SplashImage {
+        width: 100%;
+    }
+    .HorizontalLineSeparator {
+        border: 1px solid cyan;
+        width: 80%;
+    }
