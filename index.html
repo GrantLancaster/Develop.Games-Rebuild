@@ -9,6 +9,42 @@
 </head>
 
 <body>
+
+<div class="SVGWrapper">
+  <svg>
+    <defs>
+      <linearGradient id="fadeGradient" x1="20%" x2="50%" y1="60%" y2="100%">
+        <stop offset="0%" stop-color="#07c" />
+        <stop offset="25%" stop-color="#07c" stop-opacity="75%" />
+        <stop offset="50%" stop-color="#07c" stop-opacity="50%" />
+        <stop offset="75%" stop-color="#07c" stop-opacity="25%" />
+        <stop offset="100%" stop-color="#07c" stop-opacity="5%" />
+      </linearGradient>
+    </defs>
+    <circle
+    id="circle"
+      cx="300"
+      cy="300"
+      r="300"
+      fill="url(#fadeGradient)"
+    />
+    <circle
+    id="circle"
+      cx="1200"
+      cy="800"
+      r="600"
+      fill="url(#fadeGradient)"
+    />
+    <circle
+    id="circle"
+      cx="300"
+      cy="300"
+      r="300"
+      fill="url(#fadeGradient)"
+    />
+  </svg>
+</div>
+
   <header>
     <div id="VersionNumber">
       <h4>v1.0.8 - Chat is Stinky Edition</h4>
@@ -33,54 +69,54 @@
   <div class="MainContent">
     <nav>
       <ul>
-        <li>Live Stream</li>
-        <li>Who Are You?</li>
-        <li>Skills Required</li>
+        <li class="NavOption">Live Stream</li>
+        <li class="NavOption"><a href="#Introduction">Who Are You?</a></li>
+        <li class="NavOption">Skills Required</li>
         <li>
           <ul>
-            <li>Art</li>
-            <li>Music</li>
-            <li>Programming</li>
+            <li class="NavOption">Art</li>
+            <li class="NavOption">Music</li>
+            <li class="NavOption">Programming</li>
           </ul>
         </li>
-        <li>Picking a Genre</li>
-        <li>Building a Team</li>
-        <li>Tools</li>
+        <li class="NavOption">Picking a Genre</li>
+        <li class="NavOption">Building a Team</li>
+        <li class="NavOption">Tools</li>
         <li>
           <ul>
-            <li>Engine</li>
-            <li>Art Programs</li>
-            <li>Audio Programs</li>
+            <li class="NavOption">Engine</li>
+            <li class="NavOption">Art Programs</li>
+            <li class="NavOption">Audio Programs</li>
           </ul>
         </li>
-        <li>Financing</li>
+        <li class="NavOption">Financing</li>
         <li>
           <ul>
-            <li>Streaming</li>
-            <li>Publishers</li>
-            <li>Kickstarter</li>
-            <li>Merchandise</li>
-            <li>Subscription Services</li>
-            <li>Scams</li>
+            <li class="NavOption">Streaming</li>
+            <li class="NavOption">Publishers</li>
+            <li class="NavOption">Kickstarter</li>
+            <li class="NavOption">Merchandise</li>
+            <li class="NavOption">Subscription Services</li>
+            <li class="NavOption">Scams</li>
           </ul>
         </li>
-        <li>Marketing</li>
+        <li class="NavOption">Marketing</li>
         <li>
           <ul>
-            <li>Building a Community</li>
-            <li>Social Media</li>
-            <li>Paid Advertisement</li>
-            <li>Conventions</li>
-            <li>Awards</li>
+            <li class="NavOption">Building a Community</li>
+            <li class="NavOption">Social Media</li>
+            <li class="NavOption">Paid Advertisement</li>
+            <li class="NavOption">Conventions</li>
+            <li class="NavOption">Awards</li>
           </ul>
         </li>
-        <li>Launching Your Game</li>
+        <li class="NavOption">Launching Your Game</li>
         <li>
           <ul>
-            <li>Steam</li>
-            <li>Humble Bundle</li>
-            <li>Game Jolt</li>
-            <li>Itch.io</li>
+            <li class="NavOption">Steam</li>
+            <li class="NavOption">Humble Bundle</li>
+            <li class="NavOption">Game Jolt</li>
+            <li class="NavOption">Itch.io</li>
           </ul>
         </li>
       </ul>
