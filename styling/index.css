@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
     font-size: 18px;
     font-family: "calibri", sans-serif;
     color: gainsboro;
     background: rgb(0,157,189);
-    background: linear-gradient(45deg, rgba(0,157,189,1) 0%, rgba(17,17,126,1) 100%);
+    background: linear-gradient(45deg, rgba(165,61,61,1) 0%, rgba(0,157,189,1) 50%, rgba(17,17,126,1) 100%);
+    scroll-behavior: smooth;
 }
 body {
     display: flex;
@@ -80,17 +83,27 @@ nav {
         margin: 0.2em 0 0.2em 0;
     }
     .NavOption {
-        transition: font-size 0.2s, color 0.2s;
+        font-family: "Montserrat", sans-serif;
+        transition: font-size 0.2s, color 0.2s, border 0.2s;
         text-wrap: nowrap;
+        padding-left: 0.2em;
     }
     .NavOption:hover {
         font-size: 24px;
         font-weight: bolder;
         color: gold;
+        border-left: 5px solid black;
+        border-bottom: 5px solid black;
     }
-    a {
-        scroll-behavior: smooth;
+    nav a:visited {
+        color: inherit;
+        text-decoration: none;
     }
+    nav a:link {
+        color: inherit;
+        text-decoration: none;
+    }
+
 
 main {
     height: 100%;
@@ -105,6 +118,8 @@ main {
         background: linear-gradient(180deg, rgba(0,0,0,1) 40%, rgba(0,0,0,0.5) 100%);    }
     .ContentPanel p {
         font-size: 22px;
+        padding: 1em;
+        margin: 0;
     }
     .SplashImage {
         width: 100%;
@@ -112,4 +127,32 @@ main {
     .HorizontalLineSeparator {
         border: 1px solid cyan;
         width: 80%;
+        margin: 2em;
     }
+    .ContentPanel a:hover {
+        color: #FFA500;
+        text-decoration: underline;
+    }
+    .ContentPanel a:link, a:visited {
+        /* color: #FFA500; */
+        color: rgba(0,157,189,1);
+        text-decoration: underline;
+    }
+    .LayoutParent {
+        display: flex;
+        gap: 2em;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+        .GameEntry {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1em;
+            width: 40%;
+        }
+        .GameEntry img {
+            max-width: 400px;
+            height: auto;
+        }
