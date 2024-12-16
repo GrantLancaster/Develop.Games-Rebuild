@@ -63,7 +63,7 @@ header {
 .MainContent {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    gap: 1em;
+    gap: 3em;
     padding: 2em;
     max-width: 1440px;
 }
