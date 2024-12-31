@@ -11,7 +11,7 @@
 <body>
 
 <div class="SVGWrapper">
-  <svg>
+  <svg id="BackgroundSVG">
     <defs>
       <linearGradient id="fadeGradient" x1="20%" x2="50%" y1="60%" y2="100%">
         <stop offset="0%" stop-color="#07c" />
@@ -65,6 +65,71 @@
       </div>
     </div>
   </header>
+
+  <div id="SectionsNavBar">
+    <div class="CurrentSection">
+      <svg id="HamburgerMenuIcon" width="50" height="70" xmlns="http://www.w3.org/2000/svg">
+        <rect x="5" y="15" width="40" height="10" fill="white" />
+        <rect x="5" y="30" width="40" height="10" fill="white" />
+        <rect x="5" y="45" width="40" height="10" fill="white" />
+      </svg> 
+      <p id="MobileNavActiveSection"></p>
+    </div>
+    <div id="HamburgerMenuDropDown" style="display: none;">
+      <ul>
+            <li class="NavOption"><a class="" href="#Livestream">Live Stream</a></li>
+            <li class="NavOption"><a href="#Introduction">Who Are You?</a></li>
+            <li class="NavOption"><a class="" href="#Skills">Skills Required</a></li>
+            <li>
+              <ul>
+                <li class="NavOption"><a class="" href="#Art">Art</a></li>
+                <li class="NavOption"><a class="" href="#Music">Music</a></li>
+                <li class="NavOption"><a class="" href="#Programming">Programming</a></li>
+              </ul>
+            </li>
+            <li class="NavOption"><a class="" href="#TypeOfGame">Picking a Type of Game</a></li>
+            <li class="NavOption"><a class="" href="#Team">Building a Team</a></li>
+            <li class="NavOption"><a class="" href="#Tools">Tools</a></li>
+            <li>
+              <ul>
+                <li class="NavOption"><a class="" href="#Engine">Engine</a></li>
+                <li class="NavOption"><a class="" href="#ArtProgram">Art Programs</a></li>
+                <li class="NavOption"><a class="" href="#AudioProgram">Audio Programs</a></li>
+              </ul>
+            </li>
+            <li class="NavOption"><a class="" href="#Funding">Financing</a></li>
+            <li>
+              <ul>
+                <li class="NavOption"><a class="" href="#Streaming">Streaming</a></li>
+                <li class="NavOption"><a class="" href="#Publishers">Publishers</a></li>
+                <li class="NavOption"><a class="" href="#Kickstarter">Kickstarter</a></li>
+                <li class="NavOption"><a class="" href="#Merchandise">Merchandise</a></li>
+                <li class="NavOption"><a class="" href="#Subscription_Services">Subscription Services</a></li>
+                <li class="NavOption"><a class="" href="#Scams">Scams</a></li>
+              </ul>
+            </li>
+            <li class="NavOption"><a class="" href="#Marketing">Marketing</a></li>
+            <li>
+              <ul>
+                <li class="NavOption"><a class="" href="#Building_A_Community">Building a Community</a></li>
+                <li class="NavOption"><a class="" href="#Social_Media">Social Media</a></li>
+                <li class="NavOption"><a class="" href="#Paid_Advertisement">Paid Advertisement</a></li>
+                <li class="NavOption"><a class="" href="#Conventions">Conventions</a></li>
+                <li class="NavOption"><a class="" href="#Awards">Awards</a></li>
+              </ul>
+            </li>
+            <li class="NavOption"><a class="" href="#LaunchingGame">Launching Your Game</a></li>
+            <li>
+              <ul>
+                <li class="NavOption"><a class="" href="#Steam">Steam</a></li>
+                <li class="NavOption"><a class="" href="#HumbleBundle">Humble Bundle</a></li>
+                <li class="NavOption"><a class="" href="#GameJolt">Game Jolt</a></li>
+                <li class="NavOption"><a class="" href="#Itch.io">Itch.io</a></li>
+              </ul>
+            </li>
+      </ul>
+    </div>
+  </div>
 
   <div class="MainContent">
     <nav>
